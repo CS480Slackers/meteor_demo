@@ -8,13 +8,6 @@ import {
 
 export default class Homepage extends Component{
   render(){
-    job = {
-      
-    }
-    Meteor.call('jobInsert',job);
-
-
-
     let c = (location) =>{
       console.log("click", location);
     }
